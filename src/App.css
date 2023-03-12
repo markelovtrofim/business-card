@@ -1,4 +1,8 @@
-@import url(//db.onlinewebfonts.com/c/59fce1ebf2ccc73789506125c1dbfef3?family=Styrene+B+Bold);
+
+@font-face {
+    font-family: Styrene;
+    src: url(./assets/fonts/Styrene.ttf);
+}
 
 body {
     background-color: #1F2025;
@@ -23,7 +27,7 @@ body::-webkit-scrollbar-thumb {
 
 .text {
     color: #807A7F;
-    font-family: "Styrene B Bold", sans-serif;
+    font-family: Styrene, sans-serif;
     text-transform: uppercase;
 }
 

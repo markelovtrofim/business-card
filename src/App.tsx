@@ -1,11 +1,11 @@
 import React, {FC} from 'react';
 import './App.css'; // @ts-ignore
-import logo from "./imgs/logo.jpg"; // @ts-ignore
-import linkedin from "./imgs/linkedin.png"; // @ts-ignore
-import github from "./imgs/github.png"; // @ts-ignore
-import spotify from "./imgs/spotify.png"; // @ts-ignore
-import twitter from "./imgs/twitter.png"; // @ts-ignore
-import instagram from "./imgs/instagram.png"; // @ts-ignore
+import logo from "./assets/imgs/logo.jpg"; // @ts-ignore
+import linkedin from "./assets/imgs/linkedin.png"; // @ts-ignore
+import github from "./assets/imgs/github.png"; // @ts-ignore
+import spotify from "./assets/imgs/spotify.png"; // @ts-ignore
+import twitter from "./assets/imgs/twitter.png"; // @ts-ignore
+import instagram from "./assets/imgs/instagram.png"; // @ts-ignore
 import './App.css';
 
 type Link = {
