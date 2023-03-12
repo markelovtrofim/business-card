@@ -1,0 +1,145 @@
+@import url(//db.onlinewebfonts.com/c/59fce1ebf2ccc73789506125c1dbfef3?family=Styrene+B+Bold);
+
+body {
+    background-color: #1F2025;
+}
+
+::selection {
+    background: #cb8784; /* Safari */
+}
+::-moz-selection {
+    background: #cb8784; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    width: 5px
+}
+
+
+body::-webkit-scrollbar-thumb {
+    background-color: #807A7F;
+    border-radius: 2px;
+}
+
+.text {
+    color: #807A7F;
+    font-family: "Styrene B Bold", sans-serif;
+    text-transform: uppercase;
+}
+
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.title {
+    position: relative;
+    top: 0;
+    transition: top linear 0.1s;
+    color: #fff;
+    font-size: 50px;
+    cursor: default;
+    margin-left: 40px;
+}
+
+.title:hover, .title:active {
+    top: 5px;
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    transition: top linear 0.1s;
+    border-radius: 50%;
+    width: 180px;
+}
+
+.logo:hover, .logo:active {
+    top: 10px;
+}
+
+
+/* links */
+.links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.link {
+    position: relative;
+    top: 0;
+    transition: top linear 0.1s;
+    display: flex;
+    align-items: center;
+    background-color: #2B2C2F;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover, .link:active {
+    top: -5px;
+}
+
+.link_img {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.link_text {
+    font-size: 20px;
+}
+
+.video {
+    margin-top: 30px;
+    text-align: center;
+    height: 315px;
+    width: 560px;
+    border: none;
+}
+
+.nothing {
+    border-bottom: 1px solid #807A7F;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 6px;
+    font-style: italic;
+}
+
+@media (max-width: 620px) {
+    .logo {
+        width: 150px;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .video {
+        height: 150px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo {
+        width: 110px;
+    }
+    .title {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+}
